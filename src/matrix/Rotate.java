@@ -10,7 +10,7 @@ public class Rotate {
      * @param c   end of column
      * @param mat matrix
      */
-    static void rotateMatrix(int r, int c, int mat[][]) {
+    static void rotateMatrix(int r, int c, int[][] mat) {
         int row = 0;
         int col = 0;
         int prev, curr;

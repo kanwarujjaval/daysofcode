@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class Graph {
 
     private int V;  //no of vertices
-    private LinkedList<Integer> adj[]; //adjacency list
+    private LinkedList<Integer>[] adj; //adjacency list
 
     Graph(int v) {
         V = v;
@@ -25,7 +25,7 @@ public class Graph {
      * @param s Source in the graph
      */
     void BFS(int s) {
-        boolean visited[] = new boolean[V];
+        boolean[] visited = new boolean[V];
 
         LinkedList<Integer> queue = new LinkedList<Integer>();
 

@@ -4,7 +4,7 @@ public class Rotate180 {
 
     static int N = 3;
 
-    static void printRotatedMatrix(int mat[][]) {
+    static void printRotatedMatrix(int[][] mat) {
         for (int i = N - 1; i >= 0; i--) {
             for (int j = N - 1; j >= 0; j--) {
                 System.out.print(mat[i][j] + " ");
