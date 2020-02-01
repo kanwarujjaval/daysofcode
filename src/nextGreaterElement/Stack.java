@@ -1,7 +1,5 @@
 package nextGreaterElement;
 
-import java.lang.invoke.DelegatingMethodHandle$Holder;
-
 public class Stack {
     int top = -1;
     int[] items = new int[100];
